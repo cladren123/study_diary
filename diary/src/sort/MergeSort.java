@@ -9,7 +9,7 @@ package sort;
 public class MergeSort {
 
   public static void main(String[] args) {
-    int[] array = {3,1,5,4,8,7};
+    int[] array = {3,1,5,9,4,8,7};
     printArray(array);
     mergeSort(array);
     printArray(array);

@@ -8,7 +8,7 @@ package sort;
 public class QuickSort {
 
   public static void main(String[] args) {
-    int[] array = {3,1,5,4,8,7};
+    int[] array = {3,1,5,9,4,8,7};
     printArray(array);
     quickSort(array);
     printArray(array);
