@@ -1,9 +1,10 @@
 package sort;
 
 /*
-선택 정렬
-O(n^2)
-가장 작은 값부터 앞부터 채워넣는 방식
+선택 정렬(Selection Sort)
+시간 복잡도 : O(n^2)
+가장 작은 값을 찾은 다음 첫 번째 인덱스에 넣는다.
+이 과정을 처음부터 끝까지 반복하여 정렬을 완성한다.
  */
 public class SelectionSort {
 
